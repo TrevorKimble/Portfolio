@@ -1,0 +1,60 @@
+.h{
+    width: 100%;
+    background-color: aqua;
+    height: 100px;
+    color:white;
+    margin: 5px;
+}
+
+
+.flex_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    /* justify-content: space-around; */
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5px;
+}
+
+.item{
+  
+    flex-wrap: wrap;
+}
+
+
+.i1{
+    background-color: red;
+    min-height: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin: 5px;
+
+}
+
+.i2{
+    background-color: green;
+    flex: 2;
+    min-height: 500px;
+    margin: 5px;
+}
+
+.i3{
+    background-color: blue;
+    flex: 1;
+    margin: 5px;
+}
+
+
+.f{
+    width: 100%;
+    background-color: aqua;
+    height: 100px;
+    color:white;
+    background-color: black;
+}
+
+.wrap{
+    margin:auto;
+    max-width: 75%;
+}

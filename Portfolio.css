@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+/*---------------------------- Header ------------------------------------------*/
+.info{
+
+}
+
+.info h1{
+    text-align: center;
+}
+
+.about{
+    text-align: center;
+}
+
+.profile_pic{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    width: 400px;
+}
+/*--------------------------------- Nav bar ----------------------------------------*/
+.nav_bar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_bar h2{
+    color: red
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links a{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border: red solid 2px;
+    text-align: center;
+}
+
+
+/*--------------------------------- Projects ----------------------------------------*/
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects h2{
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+}
+
+.project_links{
+    display: flex;
+    flex-direction: column;
+}
+.project_links a{
+    
+    color: white;
+    border: white solid 2px;
+    padding: 5px;
+    margin:5px;
+    text-align: center;
+}
+
+/* --------------------------------Resume --------------------------------------*/
+.resume{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resume h2{
+    color: red;
+    font-size: xx-large;
+}
+
+.resume_block{
+    text-align: center;
+}
+
+.resume_block h3{
+    color: red;
+}
+
+/* --------------------------------Contact info --------------------------------------*/
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact h2{
+    color: red;
+    font-size: xx-large;
+}
